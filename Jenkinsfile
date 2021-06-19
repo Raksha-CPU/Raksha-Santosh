@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '''shell.sh
+                sh 'shell.sh'
 '''
             }
         }
         stage('Test') {
             steps {
-                sh '''shell.sh
+                sh 'shell.sh'
 '''
             }
         }
